@@ -27,6 +27,15 @@ python3 manage.py createsuperuser
 
 admin/12345678
 
+
+//Database make migration
+
+ python3 manage.py makemigrations
+
+//Migrate after creation model
+
+ python3 manage.py migrate
+
 //disable the virtual environment
 
 deactivate
